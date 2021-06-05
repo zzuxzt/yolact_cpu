@@ -5,10 +5,10 @@ import torch
 import torch.utils.data as data
 import torchvision.transforms as transforms
 # changed by xzt:
-import sys
-sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages') # in order to import cv2 under python3
-import cv2
+#import sys
+#sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages') # in order to import cv2 under python3
 #import cv2
+import cv2
 import numpy as np
 from .config import cfg
 from pycocotools import mask as maskUtils
