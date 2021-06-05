@@ -1,5 +1,5 @@
 # Personal Statement:
-Forking the cpu version from https://github.com/jerpint/yolact.git , just for personal use only.
+Forking the cpu version from https://github.com/jerpint/yolact.git , and adding the test dataset (PennFudanPed:https://www.cis.upenn.edu/~jshi/ped_html/). For personal use only.
 # Installation for CPU:
 ```Shell
 # create conda environment:
