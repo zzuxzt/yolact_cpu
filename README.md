@@ -26,7 +26,7 @@ git clone https://github.com/zzuxzt/yolact_cpu.git
 # download yolact model (yolact_base_54_800000.pth) to the 'weights' folder:
 https://drive.google.com/file/d/1UYy3dMapbH1BnmtZU4WH1zbYgOzzHHf_/view
 
-# find a image to run the inference demo:
+# find an image to run the inference demo:
 python eval.py --trained_model=weights/yolact_base_54_800000.pth --score_threshold=0.3 --top_k=100 --image=test_data/PennFudanPed/PNGImages/FudanPed00001.png
 ```
 
