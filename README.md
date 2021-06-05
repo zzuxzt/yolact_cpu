@@ -1,3 +1,45 @@
+# Personal Statement:
+Forking the cpu version from https://github.com/jerpint/yolact.git , just for personal use only.
+# Installation for CPU:
+```Shell
+# create conda environment:
+conda create -n yolact_cpu python=3.7
+
+# active yolact_cpu environment:
+conda activate yolact_cpu
+
+# install pytorch:
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+
+# install cython:
+conda install -c anaconda cython
+
+# install opencv, matplotlib, pillow:
+conda install -yc numpy opencv matplotlib pillow
+
+# install pycocotools:
+conda install -c conda-forge pycocotools
+
+# git clone yolact github package:
+git clone https://github.com/jerpint/yolact.git
+
+# download yolact model (yolact_base_54_800000.pth) to the 'weights' folder:
+https://drive.google.com/file/d/1UYy3dMapbH1BnmtZU4WH1zbYgOzzHHf_/view
+
+# find a image to run the inference demo:
+python eval.py --trained_model=weights/yolact_base_54_800000.pth --score_threshold=0.3 --top_k=100 --image=test_data/PennFudanPed/PNGImages/FudanPed00001.png
+```
+
+
+
+
+
+
+
+
+
+
+
 # **Y**ou **O**nly **L**ook **A**t **C**oefficien**T**s
 ```
     ██╗   ██╗ ██████╗ ██╗      █████╗  ██████╗████████╗
