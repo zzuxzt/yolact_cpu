@@ -9,7 +9,7 @@ conda create -n yolact_cpu python=3.7
 conda activate yolact_cpu
 
 # install pytorch:
-conda install pytorch torchvision torchaudio cpuonly -c pytorch
+conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cpuonly -c pytorch
 
 # install cython:
 conda install -c anaconda cython
